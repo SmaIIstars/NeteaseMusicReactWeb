@@ -4,7 +4,7 @@ export const NewAlbumWrapper = styled.div`
   left: 0;
   right: 0;
   width: 98%;
-  margin: 0 auto;
+  margin: 40px auto;
 
   padding: 25px 0;
   background: #f5f5f5;

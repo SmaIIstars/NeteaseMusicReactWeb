@@ -23,3 +23,18 @@ export function getNewAlbums(limit) {
     },
   });
 }
+
+export function getTopLists() {
+  return request({
+    url: "/toplist",
+  });
+}
+
+export function getTopListDetails(id) {
+  return request({
+    url: "/playlist/detail",
+    params: {
+      id,
+    },
+  });
+}

@@ -5,4 +5,7 @@ export const HotRecommendWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   flex-flow: wrap;
+
+  margin: 40px 0;
+
 `;

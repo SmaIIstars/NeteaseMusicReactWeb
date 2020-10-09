@@ -1,4 +1,4 @@
-import React, { memo, useEffect, createRef, useCallback } from "react";
+import React, { memo, useEffect, createRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 import { Carousel } from "antd";
