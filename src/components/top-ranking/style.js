@@ -71,10 +71,22 @@ export const RankingList = styled.div`
   }
 
   .song-name {
+    display: inline-block;
+
     flex: 5;
 
     height: 34px;
     line-height: 34px;
+  }
+
+  .song-item:hover {
+    cursor: pointer;
+
+    .play,
+    .add,
+    .collation {
+      display: inline-block;
+    }
   }
 
   .go-all {
@@ -85,7 +97,8 @@ export const RankingList = styled.div`
 
   .operation {
     position: relative;
-    right: 20px;
+    padding-right: 20px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -93,26 +106,24 @@ export const RankingList = styled.div`
     .play,
     .add,
     .collation {
-      /* display: none; */
+      display: none;
 
-      width: 20px;
-      height: 20px;
+      width: 18px;
+      height: 18px;
       /* background-color: red; */
     }
 
     .add {
       margin: 0 5px;
-      background-position: 10px 10px;
+      background-position: 2px -697px;
     }
-  }
 
-  .song-item:hover {
-    cursor: pointer;
+    .play {
+      background-position: -266px -267px;
+    }
 
-    .play,
-    .add,
     .collation {
-      display: inline-block;
+      background-position: -295px -267px;
     }
   }
 `;

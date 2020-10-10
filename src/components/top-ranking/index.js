@@ -42,9 +42,15 @@ export default memo(function SSTopRanking(props) {
                 <i className="index">{index + 1}</i>
                 <li className="song-name text-nowrap">{item.name}</li>
                 <div className="operation">
-                  <button className="sprite_02 play"></button>
-                  <button className="sprite_icon2 add"></button>
-                  <button className="sprite_02 collation"></button>
+                  <a className="sprite_02 play" href="#/">
+                    {" "}
+                  </a>
+                  <a className="sprite_icon2 add" href="#/">
+                    {" "}
+                  </a>
+                  <a className="sprite_02 collation" href="#/">
+                    {" "}
+                  </a>
                 </div>
               </div>
             );

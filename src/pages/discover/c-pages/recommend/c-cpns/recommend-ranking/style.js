@@ -7,11 +7,17 @@ export const RankingWrapper = styled.div`
   background-size: cover;
 
   display: flex;
-  justify-content: space-between;
   align-items: center;
 
-  .ranking-item {
-    width: 33.4%;
-    flex: 1;
+  .ranking-item1 {
+    width: 33.3%;
+  }
+  .ranking-item2 {
+    padding-left: 19px;
+    width: 33.3%;
+  }
+  .ranking-item3 {
+    width: 33.3%;
+    padding-left: 40px;
   }
 `;

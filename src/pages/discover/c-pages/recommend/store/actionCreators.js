@@ -109,7 +109,7 @@ export const getNewListDetailAction = (id) => {
   return (dispatch) => {
     getTopListDetails(id).then((res) => {
       const { data } = res;
-      console.log(data);
+      // console.log(data);
       dispatch(changegetNewListDetailAction(data));
     });
   };

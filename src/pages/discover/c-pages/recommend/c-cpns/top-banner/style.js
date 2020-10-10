@@ -5,7 +5,7 @@ export const RecommendWrapper = styled.div`
   background: url(${(props) => props.bgImage}) center center/6000px;
 
   .banner-content {
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
     height: 285px;
 
     display: flex;
@@ -15,7 +15,7 @@ export const RecommendWrapper = styled.div`
 `;
 
 export const BannerLeft = styled.div`
-  width: calc(100% - 253px);
+  width: calc(100% - 235px);
   .slick-track {
     height: 285px;
   }
@@ -31,8 +31,9 @@ export const BannerLeft = styled.div`
 
 export const BannerRight = styled.div`
   height: 100%;
-  width: 253px;
+  width: 235px;
   background: url(${require("@/assets/img/download.png")});
+  background-position: -10px 0px;
 `;
 
 export const BannerControl = styled.div`

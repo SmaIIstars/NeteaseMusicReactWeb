@@ -6,6 +6,10 @@ import SSPersonalRecommend from "./c-cpns/personal-recommend";
 import SSNewAlbum from "./c-cpns/new-album";
 import SSRecommendRanking from "./c-cpns/recommend-ranking";
 
+import SSLoginButton from "./c-cpns/login-button";
+import SSPopularAnchor from "./c-cpns/popular-anchor";
+import SSResidentSinger from "./c-cpns/resident-singer";
+
 import {
   HotRecommendWrapper,
   HotContent,
@@ -30,7 +34,11 @@ function SSRecommend() {
         </HotContentLeft>
 
         {/* 内容右侧 */}
-        <HotContentRight></HotContentRight>
+        <HotContentRight>
+          <SSLoginButton />
+          <SSResidentSinger />
+          <SSPopularAnchor />
+        </HotContentRight>
       </HotContent>
     </HotRecommendWrapper>
   );

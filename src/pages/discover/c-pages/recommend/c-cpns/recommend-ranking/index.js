@@ -36,30 +36,30 @@ export default memo(function SSRecommendRanking() {
 
   // 业务逻辑
   // console.log(topLists);
-  console.log(topListDetails);
-  console.log(newListDetails);
-  console.log(originListDetails);
+  // console.log(topListDetails);
+  // console.log(newListDetails);
+  // console.log(originListDetails);
 
   return (
     <div>
       <SSThemeHeaderRCM title={"榜单"} />
 
       <RankingWrapper>
-        <div className="ranking-item">
+        <div className="ranking-item1">
           <SSTopRanking
             info={topLists[0]}
             songs={topListDetails ? topListDetails.slice(0, 10) : []}
           ></SSTopRanking>
         </div>
 
-        <div className="ranking-item">
+        <div className="ranking-item2">
           <SSTopRanking
             info={topLists[1]}
             songs={newListDetails ? newListDetails.slice(0, 10) : []}
           ></SSTopRanking>
         </div>
 
-        <div className="ranking-item">
+        <div className="ranking-item3">
           <SSTopRanking
             info={topLists[2]}
             songs={originListDetails ? originListDetails.slice(0, 10) : []}
