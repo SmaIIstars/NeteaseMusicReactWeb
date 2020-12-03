@@ -12,6 +12,7 @@ module.exports = {
       pages: resolve("src/pages"),
       route: resolve("src/router"),
       utils: resolve("src/utils"),
+      containers: resolve("src/containers"),
     },
   },
 };
